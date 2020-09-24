@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON example</title>
+		<meta name="description" content="OPenweather">
+		<meta name="author" content="Chaitali">
+	
+
+	<body>
+		<div >
+			<select id="city">
+
+				<option value="chester">Chester</option>
+		   
+				<option value="warrington">Warrington</option>
+		   
+				<option value="cardiff">Cardiff</option>
+		   
+				<option value="london">London</option>
+		   
+		   </select>
+
+
+<button id = "submit">search city</button>
+
+	
+		</div>
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+
+				<tr>
+					<td align="right">
+						Weather: 
+					</td>
+					<td id="main">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Description: 
+					</td>
+					<td id="description">
+					
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Pressure: 
+					</td>
+					<td id="pressure">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Temprature: 
+					</td>
+					<td id="temprature">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Humidity: 
+					</td>
+					<td id="humidity">
+						
+					</td>
+
+				</tr>
+
+
+			</table>
+	
+</div>
+
+		<script type="application/javascript" src="jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="script.js"></script>
+
+	</body>
+
+</html>
